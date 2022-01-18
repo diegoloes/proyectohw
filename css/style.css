@@ -1,0 +1,229 @@
+/* Pseudoselectores */
+:root{
+    --blanco: #fff; /* Custom properties */
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0068d6;
+    --secundario1: #f18900;
+    --rojo:#d6002e;
+    --gris: #757575;
+    --fuente-principal:3.8rem;
+}
+
+html{
+	font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+    font-size: 16px; /* 1rem = 10px */
+    font-family: "Krub", sans-serif;
+    background-image: linear-gradient(to top, #000000 0%, var(--oscuro) 50%);
+}
+
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+.titulo span{
+	font-size: 2rem;
+}
+/* Globales */
+.contenedor{
+    max-width: 120rem; /* 120rem = 1200px */
+    margin: 0 auto;
+}
+
+
+
+
+/* Utilidades */
+
+.header{
+    
+    
+}
+
+
+.w-sm-100{
+    width: 100%;
+}
+
+
+
+
+
+.titulo{
+	text-align: center;
+    /* font-size: var(--fuente-principal);  Opcional para tener mayor control al modificar*/
+    font-size: 3.8rem;
+}
+.titulo span{
+	font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    
+}
+
+/* Navegacion principal */
+.contenedor{
+    max-width: 140rem; /* 120rem = 1200px */
+    margin: 1 auto;
+}
+.nav-bg{
+    background-color: var(--secundario1);
+    border-style:solid ;
+   
+}
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.navegacion-principal a{
+    display: block;
+    text-align: center;
+    color: var(--oscuro);
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    
+    color: var(--primario);
+    background-color: var(--rojo);
+}
+
+/* Media Query para barra de avegacion*/
+@media (min-width: 768px) {
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+    
+    
+}
+    /* Servicios */
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54); /* Chrome */
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);/* Firefox*/
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+    background-color: var(--blanco);
+    padding: 5rem;
+}
+
+@media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+    }    
+}
+
+.servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio .iconos{
+    height: 10rem;
+    width: 10rem;
+    background-color: var(--rojo);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicio h3{
+    color: var(--secundario);
+    font-weight: bold;
+    font-size: 2rem;
+}
+.servicio p{
+    line-height: 2rem;
+}
+    .formulario{
+        background-color: var(--secundario);
+        width: min(80rem,100%);
+        margin:0 auto;
+        padding: 2rem;
+        border-radius: 1rem;
+
+    }
+    .formulario fieldset{
+        border: none;
+    }
+    .formulario legend{
+        text-align: center;
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color:var(--secundario)
+    
+    }
+    .contenedor-campos{}
+
+    .campo{
+        margin-bottom: 2rem;
+    }
+    .campo label{
+        color: var(--primario);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        display: block;
+
+    }
+    .campo .input-text{
+        width: 100%;
+        border:none;
+        padding: 1.2rem;
+        border-radius: 0.5rem;
+
+    }
+    .campo textarea{
+        height: 10rem;
+    }
+@media(min-width: 768px){
+    .contenedor-campos{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 10rem 10rem;
+        column-gap: 1rem;
+    }
+}
+.campo:nth-child(2){}
+
+.campo:nth-child(3){
+    grid-column: 1/3;
+}
+
+.campo:nth-child(4){
+    grid-column: 1/3;
+
+}
+
+.footer{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+

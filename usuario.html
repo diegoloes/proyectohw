@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize debe de ir primero para estandarizar nuestro sitio web -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Las librerias deben de ir primero -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preload" href="css/style.css"style">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+
+    
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html">INICIO</a>
+            <a href="mialbum.html">MI ALBUM</a>
+            <a href="informacion.html">INFORMACION</a>
+            <a href="miusuario.html">MI USUARIO</a>
+       
+        </nav>
+    </div>
+
+    <section>
+        <h2> nuevo usuario</h2>
+        <h2 class="fw-300 centrar-texto">Llena formulario </h2>
+        <form class="contacto" action="">
+            <fieldset>
+                <legend>Hola como estas</legend>
+            </fieldset>
+            <!-- Informacion Personal -->
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="name">Nombre: </label>
+                <input type="text" id="name" placeholder="Tu Nombre" required>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" placeholder="Tu Correo Electronico" required>
+
+                <label for="phone">Telefono: </label>
+                <input type="tel" id="phone" placeholder="Tu Telefono" required>
+
+                <label for="message">Mensaje: </label>
+                <textarea name="mensaje" id="message" cols="30" rows="10"
+                    placeholder="Introduce el texto aqui:"></textarea>
+            </fieldset>
+
+           
+
+            <!-- Informacion Sobre contacto -->
+            <fieldset>
+                <legend>Contacto</legend>
+                <p>Como desea ser contactado: </p>
+                <div class="forma-contacto">
+                    <label for="phone2">Telefono</label>
+                    <input type="radio" id="phone2" name="contact" value="phone">
+
+                    <label for="email2">E-mail</label>
+                    <input type="radio" id="email2" name="contact" value="email">
+               </div>
+
+                
+
+                
+
+            </fieldset>
+            <input type="submit" value="Enviar" class="boton boton-verde">
+        </form>
+    </section>
+</body>
+</html>
