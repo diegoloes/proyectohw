@@ -186,6 +186,7 @@ h1,h2,h3{
 }
 .card{
     background-color: var(--oscuro);
+    border-radius: 3rem;
     
 }
 .card-title{
@@ -194,10 +195,20 @@ h1,h2,h3{
     font-size: 3.5rem;
     font-family: 'Times New Roman', Times, serif;
 }
+.img-fluid{
+    border-style: solid;
+    border-radius: 3rem;
+}
+@media(min-width: 768px){
+    .img-fluid{
+        align-items: center;
+    }
+}
+
 
 /*formulario*/
     .formulario{
-        background-color: #85001d;
+        background-color:rgb(33, 129, 207);
         width: min(80rem,100%);
         margin:0 auto;
         padding: 2rem;
