@@ -60,7 +60,7 @@ h1,h2,h3{
 
 .header{
     
-    
+    background-color: rgb(33, 129, 207);
 }
 
 
@@ -92,6 +92,7 @@ h1,h2,h3{
 .container{
     max-width: 140rem; /* 120rem = 1200px */
     margin: 1 auto;
+    
 }
 .navbar{
     
