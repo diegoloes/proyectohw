@@ -32,13 +32,13 @@ h2{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-size: 4rem;
-    color:#85001d;
+    color:#ffffff;
     
 }
 
 h3{
     font-size: 1.8rem;
-    color: #85001d;
+    color:var(--primario)
 
 }
 @media(min-width: 768px){
@@ -156,7 +156,7 @@ h1,h2,h3{
     width: 15rem;
     background-color:var(--oscuro);
     border-style: solid;
-    border-color:#f5f5f5;
+    border-color:#44a0eb;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -164,7 +164,7 @@ h1,h2,h3{
 }
 
 .servicio h3{
-    color: var(--blanco);
+    color: var(--primario);
     font-weight: bold;
     padding: 2 rem;
     font-size: 3rem;
@@ -173,7 +173,7 @@ h1,h2,h3{
     padding: 3rem;
     line-height: 2rem;
     font-weight: bold;
-    color:#FFC107
+    color:#ffffff
 
 }
 /* tarjetas*/
@@ -198,17 +198,14 @@ h1,h2,h3{
 .img-fluid{
     border-style: solid;
     border-radius: 3rem;
+    align-items: center;
 }
-@media(min-width: 768px){
-    .img-fluid{
-        align-items: center;
-    }
-}
+
 
 
 /*formulario*/
     .formulario{
-        background-color:rgb(33, 129, 207);
+        background-color: #85001d;
         width: min(80rem,100%);
         margin:0 auto;
         padding: 2rem;
@@ -276,4 +273,9 @@ h1,h2,h3{
 /*barra de buscador*/
 .form-control{
     padding-right: 35rem;
+}
+
+.iconosredes{
+    padding: 5rem;
+    text-align: center;
 }
