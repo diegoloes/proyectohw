@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diegoloesmx</title>
+    <!--libreria de aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Normalize debe de ir primero para estandarizar nuestro sitio web -->
     <link rel="preload" href="css/normalize.css" as="style">
@@ -29,91 +31,151 @@
 </head>
 
 <body>
-    <header class="header">
+   <!-- <header class="header">
         <div align="center">
             <img src="img/hwinicio.jpg" alt="Imagen principal" width="25%" aline  >
     </div>
 
-    </header>
-
+    </header> -->
+    
+      
 
    
-      </nav>
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">    
-        </nav>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <img src="img/th4.jpg" class="STH" alt="..." width="30rem" height="30rem" >
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page"   href="index.html">INICIO</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="album.html">MI ALBUM</a>
-              </li>
-              <li class="nav-item">
-                <a  class="nav-link" href="informacion.html">INFORMACION</a>
-            
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link" href="usuario.html">MI USUARIO</a>
-              </li>
-            </ul>
-            
-            <form class="d-flex">
-              <input class="form-control me-2" padding type="search" placeholder="Buscar"  aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      </body>
-    
-      </html>
-
-    <!--carusel  ejmplo imagen "img/td1.jpg" --> 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/tedr1.jpeg"class="d-block w-100" alt="...">
-          </div>
           
-          <div class="carousel-item">
-            <img src="img/th1.jpeg" class="d-block w-100" alt="...">
-          </div>
-        
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+
+    
+    <div class="nav-bg">
+      <nav class="navegacion-principal contenedor">    
+      </nav>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img src="img/th4.jpg" class="STH" alt="..." width="30rem" height="30rem" >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page"   href="index.html">INICIO</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a  class="nav-link" href="informacion.html">INFORMACION</a>
+          
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="usuario.html">MI USUARIO</a>
+            </li>
+          </ul>
+          
+          <form class="d-flex">
+            
+          </form>
+        </div>
       </div>
+    </nav>
+    </body>
+  
+    </html>
+            
+            
+            
+
+    <!--principio  ejmplo imagen "img/td1.jpg" -->
+    
+    <section class="hero">
+        <div class="contenido-hero" data-aos="flip-left">
+         
+
+            <h2>ES MOMENTO DE ORIGANIZAR TU COLECCION</h2>
+            <div  class="ubicacion" data-aos="flip-left">
+             
+               <h3> crear album</h3>
+               
+              </div>
+               
+
+               <p>
+               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-big-down" width="50" height="54" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M15 4v8h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-8a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1z" />
+              </svg>
+            </p>
+
+           
+            <a href="album.html" class="botonp"data-aos="flip-right">MI ALBUM</a>
+        
+        </div>
+    </section>
+
+    <!-- Gallery -->
+<div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0"data-aos="zoom-in-up">
+    <img
+      src="img/colla1 (3).jpeg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+    <img
+    src="img/WhatsApp Image 2022-02-07 at 18.45.53.jpeg"
+    class="w-100 shadow-1-strong rounded mb-4"
+    alt="Yosemite National Park"
+    />
+    
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0"data-aos="zoom-in-up">
+    
+
+    <img
+      src="img/mv21.jpeg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+    
+    
+      <img
+    src="img/mv23.jpeg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0"data-aos="zoom-in-up">
+    <img
+    src="img/colla1 (2).jpeg"
+    class="w-100 shadow-1-strong rounded mb-4"
+    alt="Yosemite National Park"
+  />
+    <img
+      src="img/colla5.jpeg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+
+   
+    
+    
+  </div>
+</div>
+<!-- Gallery -->
+      
+    
 
     <!-- <main class="contenedor sombra"> -->
     <main class="contenedor sombra">
-        <h2>BENEFICIOS</h2>
+        <h4>BENEFICIOS</h4>
 
         <div class="servicios">
             <!-- Proyecto 1 -->
-            <section class="servicio">
+            <section class="servicio" data-aos="flip-left">
                 <h3>COLECCIONA</h3>
 
-                <div class="iconos">
+                <div class="iconos" data-aos="flip-left">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#85001d" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <circle cx="7" cy="17" r="2" />
@@ -125,11 +187,11 @@
             </section>
 
             <!-- Proyecto 2 -->
-            <section class="servicio">
+            <section class="servicio"data-aos="flip-left">
                 <h3>FACIL DE USAR</h3>
 
-                <div class="iconos">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-list" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#85001d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <div class="iconos"data-aos="flip-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-list" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
                         <rect x="9" y="3" width="6" height="4" rx="2" />
@@ -138,7 +200,7 @@
                         <line x1="9" y1="16" x2="9.01" y2="16" />
                         <line x1="13" y1="16" x2="15" y2="16" />
                       </svg>
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-check" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#85001d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clipboard-check" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" />
                         <rect x="9" y="3" width="6" height="4" rx="2" />
@@ -149,11 +211,11 @@
             </section>
 
             <!-- Proyecto 3 -->
-            <section class="servicio">
+            <section class="servicio"data-aos="flip-left">
                 <h3>GRATIS</h3>
 
-                <div class="iconos">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-coin" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#85001d" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <div class="iconos"data-aos="flip-left">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-coin" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#fd0061" fill="#ffffff" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <circle cx="12" cy="12" r="9" />
                         <path d="M14.8 9a2 2 0 0 0 -1.8 -1h-2a2 2 0 0 0 0 4h2a2 2 0 0 1 0 4h-2a2 2 0 0 1 -1.8 -1" />
@@ -163,7 +225,7 @@
                 <p>PARA LOS AMANTES DE LOS AUTOS ESCALA!</p>
             </section>
         </div>
-        <!-- caracteristicas -->
+        <!-- caracteristicas -
         <section class="tarjetas">
             <div class="card mb-5" style="max-width: 1070px;">
                 <div class="row g-0">
@@ -196,12 +258,12 @@
              
 </section>
 
-           
+-->
         
 
         <!-- Contacto -->
         <section>
-            <h2>Contacto</h2>
+            <h4>Contacto</h4>
             <form class="formulario" action="">
                 <!-- Informacion Personal -->
                 <fieldset>
@@ -266,6 +328,11 @@
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-</body>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 
 </html>
