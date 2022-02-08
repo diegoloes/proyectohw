@@ -155,8 +155,8 @@ h1,h2,h3{
     
 
     /* Agregamos para demostar modelo de caja y quitarlo mas adelante*/
-    height: 45rem;
-     padding: 20px; 
+    height: 60rem;
+     padding: 0rem; 
     position: relative;
     margin-bottom: 4rem;
 }
