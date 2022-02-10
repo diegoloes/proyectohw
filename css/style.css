@@ -49,7 +49,7 @@ h4
     text-align: center;
     
     font-family: 'Courier New', Courier, monospace;
-    font-size: 7rem;
+    font-size: 6rem;
     color:#fdfbfb;
       
 }
@@ -278,11 +278,11 @@ h1,h2,h3{
 /* tarjetas*/
 .tarjetas{
     
-    padding: auto;
+    padding: 10rem;
     align-content: center;
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
-    color:#85001d;
+    color:#797979;
 }
 .card{
     background-color: var(--oscuro);
@@ -290,9 +290,9 @@ h1,h2,h3{
     
 }
 .card-title{
-    color: white;
+    color: rgb(255, 255, 255);
     
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
 }
 .img-fluid{
