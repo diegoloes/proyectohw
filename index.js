@@ -39,11 +39,17 @@ ecosport.info();
 //var vec2 = new vec(2, 3);
 //console.log(vec1.plus(vec2)); // Vec { x: 3, y: 5 }
 //console.log(vec1.minus(vec2)); // Vec { x: -1, y: -1 }
-//console.log(vec1.length()); // 2.23606797749979
+//console.log(vec1.length()); // 2.23606797749979 */
+const bloque = document.querySelector(".bloque");
+    bloque.addEventListener("mouseeter", () =>  {
+        bloque.getElementsByClassName.backgoundcolor = "blue";
+    });
+    
+    bloque.addEventListener("mouseeter", () =>  {
+        bloque.getElementsByClassName.backgoundcolor = "red";
+    });
+    
 
-for(let i=0;i<=100;i+=1){
-    console.log(i);
-}
 
         
    
