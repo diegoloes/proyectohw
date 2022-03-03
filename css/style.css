@@ -329,6 +329,8 @@ h1,h2,h3{
 
     .campo{
         margin-bottom: 2rem;
+        text-size-adjust: 4rem;
+        color:#ececec
     }
     .campo label{
         color: var(--blanco;

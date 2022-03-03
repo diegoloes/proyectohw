@@ -33,14 +33,9 @@
 <body>
     <header class="header">
         <div align="center">
-            <h4> crea, colecciona y admiistra </h4>
-            
+            <h4> crea, colecciona y admiistra </h4>     
     </div>
-
     </header> 
-    
-
-    
     <div class="nav-bg">
       <nav class="navegacion-principal contenedor">    
       </nav>
@@ -56,7 +51,6 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page"   href="index.html">INICIO</a>
             </li>
-            
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">INFORMACION</a>
               <ul class="dropdown-menu">
@@ -67,8 +61,6 @@
               </ul>
             </li>
             
-           
-           
             <li class="nav-item">
               <a class="nav-link" href="usuario.html">MI USUARIO</a>
             </li>
@@ -81,26 +73,43 @@
       </div>
     </nav>
 
-    <h1>Informacion sobre mis proyectos</h1>
-
-  <style>
-.bloque     {
-    width: 2rem;
-    height: 2rem;
-    background-color: coral;
-  }
-  p {
-    text-align: center;
-  }
-  </style>
-
-  <div class="cont">
-<div class="container bloque">
-  <p> agregar album</p>
-</div>
-
-  </div>
-  
+    
+<!-- agregar auto-->
+ 
+            <section>
+            
+              <form class="formulario" action="">
+                <section>
+                  
+                  <form class="formulario" action="">
+                    
+                      <fieldset>
+                          <legend>agregar </legend>
+      
+                          <div class="contenedor-campos">
+                              <div class="campo">
+                                  <label for="name">imagen:  </label>
+                                  <input type="file" id="file" name="archivo">
+                              </div>
+      
+                              <div class="campo">
+                                  <label for="telefono">nombre: </label>
+                                  <input class="input-text" type="nombre" id="nombre" placeholder="nombre" required>
+                              </div>
+      
+                              <div class="campo">
+                                  <label for="email">color: </label>
+                                  <input class="input-text" type="text" id="color" placeholder="color" required>
+                              </div>
+                              <div class="campo">
+                                <label for="email">año: </label>
+                                <input class="input-text" type="date" id="date" placeholder="date" required>
+                            </div>
+                            <button id="boton"> agregar</button>
+                            <input type="submit" id="input">
+      
+                             
+                          </div>
     
 
 
